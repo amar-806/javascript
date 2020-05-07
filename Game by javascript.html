@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF else statement</title>
+</head>
+<body>
+
+<p id="qwerty">What is the magic Number</p>
+<p><input type="text" id="poo"></p>
+<button id="guess">Guess</button>
+
+    <script type="text/javascript">
+document.getElementById("guess").onclick=function(){
+    var randomnumber=randomnumber*6;
+    randomnumber=Math.floor(randomnumber);
+    if (document.getElementById("poo").value==randomnumber) {
+        alert("well done Nice Guessing ")
+    } else {
+        alert("Try again")
+        
+    }
+
+}
+
+
+    </script>
+</body>
+</html>
